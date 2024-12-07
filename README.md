@@ -36,7 +36,7 @@ Want to extract text from an invoice in seconds? Just send a URL. Need business 
     "url": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-invoice.pdf"
   }
   ```
-![Invoice Document Example](/invoice.png)
+![Invoice Document Example](/screenshots/invoice.png)
 
 ### 2. Receipt Analysis
 - **URL**: `http://192.241.155.46/analyze-receipt`
@@ -47,7 +47,7 @@ Want to extract text from an invoice in seconds? Just send a URL. Need business 
     "url": "https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/receipt/contoso-receipt.png"
   }
   ```
-![Receipt Document Example](/receipt.png)
+![Receipt Document Example](/screenshots/receipt.png)
 
 ### 3. Business Card Analysis
 - **URL**: `http://192.241.155.46/analyze-business-card`
@@ -58,7 +58,7 @@ Want to extract text from an invoice in seconds? Just send a URL. Need business 
     "url": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/business-card-english.jpg"
   }
   ```
-![Business Card Document Example](/business-card.png)
+![Business Card Document Example](/screenshots/business-card.png)
 
 ## How to Use
 1. No installation required
