@@ -67,7 +67,7 @@ Simplify document text extraction without complex configurations! Extract text f
 
 ## Detailed API Documentation
 For comprehensive API details, check out our Swagger documentation:
-**[Swagger API Docs](http://192.241.155.46:3000/api-docs/#/)**
+**[Swagger API Docs](http://192.241.155.46/api-docs/#/)**
 
 ## Recommended Tools
 - Postman
@@ -76,4 +76,4 @@ For comprehensive API details, check out our Swagger documentation:
 - Any HTTP client supporting POST requests
 
 ## Thank You!
-We appreciate you using our Document Extraction API. Contributions and feedback are welcome! 🚀
+If you've reached till here, you're awesome! Thanks for taking the time to use my API 🙌🏻
