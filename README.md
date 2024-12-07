@@ -1,7 +1,24 @@
 # Document Extraction API
 
 ## Why? 
-Simplify document text extraction without complex configurations! Extract text from invoices, receipts, and business cards using a simple API call with just a document URL.
+In the world of document processing, developers and businesses often face significant challenges when trying to extract text from invoices, receipts, and business cards. Traditional methods require:
+
+Complex Azure API configurations
+Creating and managing Azure accounts
+Understanding intricate API documentation
+Handling multiple SDKs and libraries
+Significant development time and expertise
+
+Our Document Extraction API solves these pain points by providing:
+
+Instant Text Extraction: Simply send a document URL, receive structured data
+Zero Configuration: No Azure account or complex setup required
+Universal Compatibility: Works with PDFs, images across various document types
+Simplified Integration: One-step API call replaces hours of development work
+Cost-Effective: Eliminate the need for individual Azure subscriptions and complex infrastructure
+
+Whether you're a startup, freelancer, or enterprise developer, this API removes the technical barriers of document text extraction. We've done the heavy lifting with Azure AI, so you can focus on building your core product instead of wrestling with document processing complexities.
+Want to extract text from an invoice in seconds? Just send a URL. Need business card details without manual entry? We've got you covered. No accounts, no configurations, just pure, simple data extraction.
 
 ## Built Using
 - Node.js
@@ -11,34 +28,34 @@ Simplify document text extraction without complex configurations! Extract text f
 ## API Endpoints
 
 ### 1. Invoice Analysis
-- **URL**: `https://your-api-domain.com/analyze-invoice`
+- **URL**: `http://192.241.155.46/analyze-invoice`
 - **Method**: POST
 - **Request Body**:
   ```json
   {
-    "url": "https://example.com/invoice.pdf"
+    "url": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-invoice.pdf"
   }
   ```
 ![Invoice Document Example](/invoice.png)
 
 ### 2. Receipt Analysis
-- **URL**: `https://your-api-domain.com/analyze-receipt`
+- **URL**: `http://192.241.155.46/analyze-receipt`
 - **Method**: POST
 - **Request Body**:
   ```json
   {
-    "url": "https://example.com/receipt.jpg"
+    "url": "https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/receipt/contoso-receipt.png"
   }
   ```
 ![Receipt Document Example](/receipt.png)
 
 ### 3. Business Card Analysis
-- **URL**: `https://your-api-domain.com/analyze-business-card`
+- **URL**: `http://192.241.155.46/analyze-business-card`
 - **Method**: POST
 - **Request Body**:
   ```json
   {
-    "url": "https://example.com/businesscard.png"
+    "url": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/business-card-english.jpg"
   }
   ```
 ![Business Card Document Example](/business-card.png)
